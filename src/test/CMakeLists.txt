@@ -319,7 +319,6 @@ add_dependencies(check
   osdmaptool
   ceph-monstore-tool)
 
-<<<<<<< HEAD
 add_ceph_test(test-ceph-helpers.sh ${CMAKE_SOURCE_DIR}/src/test/test-ceph-helpers.sh)
 add_ceph_test(erasure-decode-non-regression.sh ${CMAKE_SOURCE_DIR}/qa/workunits/erasure-code/encode-decode-non-regression.sh)
 
